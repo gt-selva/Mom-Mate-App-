@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../Components/Welcome.css'
 import backButton from '../assets/Logos/back button.png'
 import preganency from '../assets/Logos/welcome preganency.png'
@@ -6,7 +7,7 @@ function Welcome() {
         <>
             <div id="welcome">
                 <div id='welcome-firstSection'>
-                    <img src={backButton} width='15px' style={{ marginLeft: '20px' }} height='25px' alt="" />
+                    <Link to={'/'}><img src={backButton} width='15px' style={{ marginLeft: '20px' }} height='25px' alt="" /></Link>
                     <h1>MomMate</h1>
                 </div>
 
@@ -28,7 +29,8 @@ function Welcome() {
                 </div>
 
                 <div id='welcome-btn'>
-                    <button>Next</button>
+                    <Link to={'/signup'}><button>Next </button></Link>
+
                 </div>
             </div>
         </>

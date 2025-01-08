@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import '../Components/SignUp .css'
 import logo from '../assets/Logos/Logo.png'
 import googleLogo from '../assets/Logos/google.png'
@@ -21,14 +22,16 @@ function SignUp() {
                     <h2>MomMate</h2>
                 </div>
                 <div id='signup-signup-inputs'>
-                    <input type="text" placeholder='Your Name' />
-                    <input type="text" placeholder='Email' />
-                    <input type="text" placeholder='Password' />
+                    <input type="text" placeholder='Your Name' required />
+                    <input type="text" placeholder='Email' required />
+                    <input type="text" placeholder='Password' required />
                     <img id='passhide' src={passhide} width='15px' alt="" />
                 </div>
 
                 <div id='signup-signup-btn'>
-                    <button>Sign Up</button>
+                    <Link to={'/login'}>
+                        <button>Sign Up</button>
+                    </Link>
                 </div>
 
                 <div id='signup-login'>
