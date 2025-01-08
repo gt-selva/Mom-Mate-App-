@@ -1,5 +1,31 @@
-#welcome{
+#onboarding{
+    background-color:#E6195E;
+    height: 800px;
     display: block;
+}
+#onboarding #logo{
+    display: flex;
+    align-items: center;
+}
+#logo img{
+    position: absolute;
+    width: 219px;
+    height: 208.09px;
+    top: 296px;
+    left: 70px;
+    gap: 0px;
+    border-radius: 27.27px 0px 0px 0px;
+    opacity: 0px;  
+}
+#logo h1{
+    position: absolute;
+    top: 430px;
+    left: 110px;
+    color: white;
+}
+
+#welcome{
+    display: none;
     height: 800px;
     width: 360px;
     margin: 10% 0px;

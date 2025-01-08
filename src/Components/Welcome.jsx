@@ -1,10 +1,29 @@
 import { Link } from 'react-router-dom';
 import '../Components/Welcome.css'
+import logo from '../assets/Logos/Logo.png'
 import backButton from '../assets/Logos/back button.png'
 import preganency from '../assets/Logos/welcome preganency.png'
 function Welcome() {
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            const loadingAnimation = document.getElementById('onboarding');
+            loadingAnimation.style.display = 'none';
+            const content = document.getElementById('welcome');
+            content.style.display = 'block';
+        }, 2000);
+    });
+
     return (
         <>
+            <div>
+                <div id='onboarding'>
+                    <div id='logo'>
+                        <img src={logo} width='100px' alt="" />
+                        <h1>Mom Mate</h1>
+                    </div>
+                </div>
+            </div>
+
             <div id="welcome">
                 <div id='welcome-firstSection'>
                     <Link to={'/'}><img src={backButton} width='15px' style={{ marginLeft: '20px' }} height='25px' alt="" /></Link>
