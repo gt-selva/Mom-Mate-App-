@@ -1,7 +1,7 @@
 #onboarding{
     background-color:#E6195E;
     height: 800px;
-    display: none;
+    display: block;
 }
 #onboarding #logo{
     display: flex;

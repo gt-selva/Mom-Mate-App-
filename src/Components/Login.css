@@ -1,0 +1,78 @@
+#Login{
+    padding: 10%;
+     width: 360px;
+     height: 800px;
+     display: block;
+ 
+ 
+ }
+ #signup-logo{
+     display: flex;
+     justify-content: center;
+ }
+ #signup-logo img{
+     width: 128px;
+     height: 128px;
+     border-radius: 50%;
+     margin-top: 10px;
+ }
+ #signup-h2 h2{
+     text-align: center;
+     font-size: 35px;
+     margin-top: 20px;
+ }
+ #signup-signup-inputs{
+     margin-top: 60px;
+ }
+ #signup-signup-inputs input{
+     width: 100%;
+     height: 40px;
+     margin-top: 15px;
+     border-radius: 10px;
+     border: 1px solid #DC99B0;
+ }
+ #signup-signup-inputs input[type=text]{
+     padding: 0px 15px;
+ }
+ #signup-signup-btn button{
+     width: 100%;
+     height: 40px;
+     border-radius: 10px;
+     border: none;
+     background-color: #E6195E;
+     margin-top: 30px;
+     color: white;
+     font-weight: 700;
+ }
+ #signup-signup-inputs p{
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    font-size: 13px;
+    color: #E6195E;
+ }
+ #signup-login p{
+     font-size: 12px ;
+     margin-top: 20px;
+     text-align: center;
+ }
+ #signup-signup-google-btn button{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     height: 40px;
+     border-radius: 10px;
+     border: 1px solid #8C8A8A;
+     background-color: white;
+     margin-top: 30px;
+     color: black;
+     font-weight: 500;
+     align-items: center;
+     gap: 10px;
+ }
+ #passhide{
+     position: relative;
+     top: -27px;
+     left: 260px;
+ }
+ 
