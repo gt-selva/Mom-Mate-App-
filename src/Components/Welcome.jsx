@@ -15,43 +15,45 @@ function Welcome() {
 
     return (
         <>
-            <div>
-                <div id='onboarding'>
-                    <div id='logo'>
-                        <img src={logo} width='100px' alt="" />
-                        <h1>Mom Mate</h1>
+            <Link to={'/'}>
+                <div>
+                    <div id='onboarding'>
+                        <div id='logo'>
+                            <img src={logo} width='100px' alt="" />
+                            <h1>Mom Mate</h1>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div id="welcome">
-                <div id='welcome-firstSection'>
-                    <Link to={'/'}><img src={backButton} width='15px' style={{ marginLeft: '20px' }} height='25px' alt="" /></Link>
-                    <h1>MomMate</h1>
-                </div>
+                <div id="welcome">
+                    <div id='welcome-firstSection'>
+                        <Link to={'/'}><img src={backButton} width='15px' style={{ marginLeft: '20px' }} height='25px' alt="" /></Link>
+                        <h1>MomMate</h1>
+                    </div>
 
-                <div id='preganency-img'>
-                    <img src={preganency} width='330px' height='339px' alt="" />
-                </div>
+                    <div id='preganency-img'>
+                        <img src={preganency} width='330px' height='339px' alt="" />
+                    </div>
 
-                <div id='welcom'>
-                    <h2>Welcome</h2>
-                </div>
-                <div id='welcome-paragh'>
-                    <p>
-                        <span style={{ marginLeft: '5px' }}>Welcome to MomMate, Where</span>
-                        <br />
-                        mothers find comfort and support,
-                        <br />
-                        <span style={{ marginLeft: '45px' }}> every step of the way.</span>
-                    </p>
-                </div>
+                    <div id='welcom'>
+                        <h2>Welcome</h2>
+                    </div>
+                    <div id='welcome-paragh'>
+                        <p>
+                            <span style={{ marginLeft: '5px' }}>Welcome to MomMate, Where</span>
+                            <br />
+                            mothers find comfort and support,
+                            <br />
+                            <span style={{ marginLeft: '45px' }}> every step of the way.</span>
+                        </p>
+                    </div>
 
-                <div id='welcome-btn'>
-                    <Link to={'/signup'}><button>Next </button></Link>
+                    <div id='welcome-btn'>
+                        <Link to={'/signup'}><button>Next </button></Link>
 
+                    </div>
                 </div>
-            </div>
+            </Link>
         </>
     );
 }
