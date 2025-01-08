@@ -1,0 +1,71 @@
+#current-stage{
+    width: 100%;
+    height: 800px;
+}
+#current-stage-bck{
+    display: flex;
+    align-items: center;
+    margin: 15% 1%;
+}
+#current-stage-bck h4{
+    margin-left:15px ;
+}
+#stages{
+    display: flex;
+    justify-content: center;
+    margin: 0px 3%;
+}
+#stage-1 ,#stage-2{
+    height: 134px;
+    width: 156px;
+    border:none;
+    border-radius: 10px;
+    background-color: #F5E9ED;
+    margin-left: 20px;
+    display: flex;
+   justify-content: center;
+}
+#stage-1 p ,#stage-2 p{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+
+}
+#stage-1 p:hover ,#stage-2 p:hover{
+    color: white;
+    font-weight: 700;
+}
+#stage-1:hover ,#stage-2:hover{
+    background-color: #E6195E;
+    transition: 800ms;
+}
+#stage{
+    display: flex;
+    justify-content: center;
+}
+#stage-3{
+    height: 134px;
+    width: 156px;
+    border:none;
+    border-radius: 10px;
+    background-color: #F5E9ED;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#stage-3 p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+#stage-3 p:hover{
+    color: white;
+    font-weight: 700;
+}
+#stage-3:hover{
+    background-color: #E6195E;
+    transition: 800ms;
+}

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import logo from '../assets/Logos/Logo.png'
 import googleLogo from '../assets/Logos/google.png'
 import passhide from '../assets/Logos/hide.png'
@@ -18,10 +19,11 @@ function Login() {
                     <img id='passhide' src={passhide} width='15px' alt="" />
                     <p id='forgot'>Forgot Password?</p>
                 </div>
-
-                <div id='signup-signup-btn'>
-                    <button>Log In </button>
-                </div>
+                <Link to={'/details'}>
+                    <div id='signup-signup-btn'>
+                        <button>Log In </button>
+                    </div>
+                </Link>
 
                 <div id='signup-login'>
                     <p>Don't have an account<span style={{ color: '#E6195E' }}> Sign up </span></p>
