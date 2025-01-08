@@ -11,7 +11,7 @@ function Welcome() {
                 </div>
 
                 <div id='preganency-img'>
-                    <img src={preganency} alt="" />
+                    <img src={preganency} width='330px' height='339px' alt="" />
                 </div>
 
                 <div id='welcom'>
@@ -19,7 +19,7 @@ function Welcome() {
                 </div>
                 <div id='welcome-paragh'>
                     <p>
-                        <span style={{ marginLeft: '10px' }}>Welcome to MomMate, Where</span>
+                        <span style={{ marginLeft: '5px' }}>Welcome to MomMate, Where</span>
                         <br />
                         mothers find comfort and support,
                         <br />

@@ -1,66 +1,36 @@
 #welcome{
     display: block;
-    width: 360px;
     height: 800px;
-    margin: 8%;
+    width: 360px;
+    margin: 10% 0px;
 }
 #welcome-firstSection{
-    position: absolute;
-   display: flex;
-   align-items: center;
-    top: 93px;
-    left: 15px;
+    display: flex;
+    align-items: center;
 }
 #welcome-firstSection h1{
-    text-align: center;
-    margin-left: 40%;
-    font-size: 35px;
-    font-weight: 800 ;
+   padding-left: 60px;
 }
-#preganency-img img{
-    position: absolute;
-    width: 330px;
-    height: 339px;
-    top: 135px;
-    left: 35px;
+#welcom {
+    text-align: center;
+    color: #E6195E;
+}
+#welcome-paragh{
+    text-align: center;
+    color: #E6195E;
+}
+#welcome-btn{
     display: flex;
     justify-content: center;
-
-}
-#welcom h2{
-    position: absolute;
-    top: 450px;
-    left:37%;
-    font-family: Nunito;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 27.28px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #E6195E;
-
-}
-#welcome-paragh p {
-    position: absolute;
-    width: 276px;
-    height: 72px;
-    top: 494px;
-    left: 92px;
-    color: #E76B95;
+    margin-top: 90px;
 }
 #welcome-btn button{
-    position: absolute;
     width: 309px;
     height: 40px;
-    border-radius: 10px;
-    border: none;
-    background-color: #E6195E;
-    top: 650px;
-    left: 60px;
-    gap: 0px;
-    opacity: 0px;
-    color: white;
-    font-weight: 900;
-
+   border-radius: 10px;
+   border: none;
+   background-color: #E6195E;
+   color: white;
+   font-size: 15px;
+   font-weight: 700;
 }
