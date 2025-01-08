@@ -1,6 +1,7 @@
 #onboarding{
     background-color:#E6195E;
     height: 800px;
+    display: none;
 }
 #onboarding #logo{
     display: flex;
