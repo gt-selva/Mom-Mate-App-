@@ -42,9 +42,11 @@ function DueDate() {
                         prevLabel={<img src={prevBtn} />}
                     />
                 </div>
-                <div id='next-btn'>
-                    <button>Next</button>
-                </div>
+                <Link to={'/otpVerification'}>
+                    <div id='next-btn'>
+                        <button>Next</button>
+                    </div>
+                </Link>
             </div>
         </>
     );

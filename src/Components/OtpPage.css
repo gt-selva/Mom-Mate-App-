@@ -1,0 +1,64 @@
+#otp-page{
+    height: 800px;
+    width: 100%;
+    margin: 2%;
+}
+#otp-image{
+    margin-top: 127px;
+    display: flex;
+    justify-content: center;
+}
+#otp-verification{
+    display: grid;
+    justify-content:
+     center;
+     margin-top: 50px;
+}
+#otp-verification p{
+    margin-top: 10px;
+    font-size: 11px;
+}
+#otp-verification h1,#otp-verification p{
+    display: flex;
+    justify-content: center;
+}
+#otp-input input{
+    width: 57px; 
+    height: 55px; 
+    font-size: 18px; 
+    text-align: center; 
+    border: 1px solid #DC99B0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #00000040;  
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#otp-input input:active{
+    border:  1px solid #DC99B0;
+}
+#otp-input {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+    margin-top: 30px;
+}
+#otp-page-button button{
+    width: 90%;
+    height: 40px;
+    border: 0.5px solid #8C8A8A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: #E6195E;
+    color: white;
+}
+#otp-page-button{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+ 
