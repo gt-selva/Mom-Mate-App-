@@ -5,6 +5,8 @@ import nextBtn from '../assets/Logos/Vector.png'
 import prevBtn from '../assets/Logos/previous.png'
 import Calender from 'react-calendar'
 function DueDate() {
+    var prebtn = document.getElementsByClassName('react-calendar__navigation__arrow ')
+    prebtn.id = 'prebtn'
     const [date, setDate] = useState(new Date());
 
     const handleDateChange = (selectedDate) => {
