@@ -1,0 +1,152 @@
+#home{
+    width: 100%;
+    height: 800px;
+    margin-top: 33px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+#home-nav-bar{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#d-m-y h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#weekdays{
+    width: 90%;
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+}
+#days{
+    width: 41px;
+    height: 43px;
+    border-radius: 13px;
+    background-color: #ECECEC;
+}
+#home-span{
+    border-radius: 13px;
+    background-color:#F6DFE7;
+    color: #E6195E;
+}
+#days:hover{
+    background-color:#F6DFE7;
+    color: #E6195E;
+}
+#da,#dat{
+    display: flex;
+    justify-content: center;
+    font-size:13px;
+    align-content: center;
+    padding: 1px;
+    cursor: pointer;
+}
+#baby-growth{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#home-track-baby{
+    margin-top: 40px;
+    width: 90%;
+    height: 134px;
+    border-radius: 17.5px;
+    background: linear-gradient(180deg, #F5E9ED 0%, rgba(239, 143, 175, 0.76) 53.5%, rgba(230, 25, 94, 0.6) 100%);   
+}
+#home-track-baby p, #home-track-baby h3 ,#home-track-baby h6{
+    color: white;
+}
+#days-of-preganent{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+#home-track-your-baby{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E6195E;
+    margin-top: 10px;
+}
+#home-track-your-baby p{
+    margin-right: 5px;
+}
+#content-parts{
+    width: 90%;
+    margin-top: 30px;
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#content p{
+    font-size: 12px;
+    font-weight: 700;
+}
+#content-1{
+    color: #58A65F;
+    padding: 10px 10px ;
+    width: 49%;
+    height: 139px;
+    border-radius: 10px;
+    background-color: #58A65F33;
+}
+#content-2  {
+    color: #F7B000;
+    padding: 10px 10px ;
+    width: 49%;
+    height: 139px;
+    border-radius: 10px;
+    background-color:#FFDD885E;
+}
+#content-3{
+    color: #FE8609;
+    padding: 10px 10px ;
+    width: 49%;
+    height: 139px;
+    border-radius: 10px;
+    background-color: #FE830742 ;
+}
+#content-4{
+    color: #FF4B60;
+    padding: 10px 10px ;
+    width: 49%;
+    height: 139px;
+    border-radius: 10px;
+    background-color: #FE748459;
+}
+#content-1 img , #content-2 img , #content-3 img ,#content-4 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content-4 img{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#content-3 img{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#content-2 img{
+    margin-left: -10px;
+}
+#navigation-buttons{
+    width: 100%;
+    margin-left: -10px;
+    margin-right: 0px;
+    height: 63px;
+    align-items: center;
+    margin-top: 10px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #E6195E;
+}
