@@ -6,12 +6,13 @@ import Welcome from './Components/Welcome'
 import UrlError from '../src/Components/UrlError'
 import Details from '../src/Components/Details'
 import CurrentStage from './Components/CurrentStage'
+import DueDate from './Components/DueDate'
 
 function App() {
 
   return (
     <>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path='/' element={<Welcome />} />
           <Route path='/signup' element={<SignUp />} />
@@ -20,8 +21,8 @@ function App() {
           <Route path='/details' element={<Details />} />
           <Route path='/currentstage' element={<CurrentStage />} />
         </Routes>
-      </BrowserRouter>
-
+      </BrowserRouter> */}
+      <DueDate />
 
 
     </>
