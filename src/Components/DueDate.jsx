@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import '../Components/DueDate.css'
 import { useState } from 'react'
 import backButton from '../assets/Logos/back button.png'
@@ -17,9 +18,11 @@ function DueDate() {
         <>
             <div>
                 <div id='back-section'>
-                    <div>
-                        <img src={backButton} width='15px' alt="" />
-                    </div>
+                    <Link to={'/currentstage'}>
+                        <div>
+                            <img src={backButton} width='15px' alt="" />
+                        </div>
+                    </Link>
                     <div><h4>What's Your Due Date</h4></div>
                 </div>
 

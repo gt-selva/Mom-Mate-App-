@@ -54,15 +54,16 @@
     display: flex;
     justify-content: center;
 }
-#stage-3 p{
+#stage-3 p,#stage-2 p,#stage-1 p{
+    color: #E6195E !important;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px 10px;
 }
-#stage-3 p:hover{
-    color: white;
+#stage-3 p:hover,#stage-2 p:hover,#stage-1 p:hover{
+    color: white !important;
     font-weight: 700;
 }
 #stage-3:hover{

@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path='/' element={<Welcome />} />
           <Route path='/signup' element={<SignUp />} />
@@ -20,9 +20,9 @@ function App() {
           <Route path='/*' element={<UrlError />} />
           <Route path='/details' element={<Details />} />
           <Route path='/currentstage' element={<CurrentStage />} />
+          <Route path='/duedate' element={<DueDate />} />
         </Routes>
-      </BrowserRouter> */}
-      <DueDate />
+      </BrowserRouter>
 
 
     </>

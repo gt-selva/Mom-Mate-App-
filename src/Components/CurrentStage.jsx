@@ -14,17 +14,23 @@ function CurrentStage() {
                     </div>
 
                     <div id='stages'>
-                        <div id='stage-1'>
-                            <p>I'm preganent.</p>
-                        </div>
-                        <div id='stage-2'>
-                            <p>I'm supporting somone.</p>
-                        </div>
+                        <Link to={'/duedate'}>
+                            <div id='stage-1'>
+                                <p>I'm preganent.</p>
+                            </div>
+                        </Link>
+                        <Link to={'/duedate'}>
+                            <div id='stage-2'>
+                                <p>I'm supporting somone.</p>
+                            </div>
+                        </Link>
                     </div>
                     <div id='stage'>
-                        <div id='stage-3'>
-                            <p>I'm a healthcare professional</p>
-                        </div>
+                        <Link to={'/duedate'}>
+                            <div id='stage-3'>
+                                <p>I'm a healthcare professional</p>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>
