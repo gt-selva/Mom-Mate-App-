@@ -20,8 +20,8 @@
     display: flex;
     justify-content: center;
 }
-#verification-next-btn button{
-    width: 86%;
+ #verification-next{
+    width: 309px;
     height: 40px;
     border: none;
     border-radius: 10px;
