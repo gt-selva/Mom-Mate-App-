@@ -4,14 +4,14 @@ import logo from '../assets/Logos/Logo.png'
 import backButton from '../assets/Logos/back button.png'
 import preganency from '../assets/Logos/welcome preganency.png'
 function Welcome() {
-    // window.addEventListener('load', () => {
-    //     setTimeout(() => {
-    //         const loadingAnimation = document.getElementById('onboarding');
-    //         loadingAnimation.style.display = 'none';
-    //         const content = document.getElementById('welcome');
-    //         content.style.display = 'block';
-    //     }, 2000);
-    // });
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            const loadingAnimation = document.getElementById('onboarding');
+            loadingAnimation.style.display = 'none';
+            const content = document.getElementById('welcome');
+            content.style.display = 'block';
+        }, 2000);
+    });
 
     return (
         <>
