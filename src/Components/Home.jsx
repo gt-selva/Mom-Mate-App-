@@ -23,6 +23,7 @@ import customerCareImg from '../assets/Logos/customer-care.png'
 import settingImg from '../assets/Logos/setting.png'
 import leftarrowpink from '../assets/Logos/leftarrow.png'
 import leftarrowblack from '../assets/Logos/leftarrowblack.png'
+import { Link } from 'react-router-dom'
 function Home() {
     return (
         <>
@@ -130,11 +131,13 @@ function Home() {
                 </div>
 
                 <div id='menue-settings'>
-                    <div id='menue-content'>
-                        <img src={healthImg} width='24px' height='25px' alt="" />
-                        <p style={{ color: '#E6195E' }}>Vaccination</p>
-                        <img src={leftarrowpink} width='25px' alt="" />
-                    </div>
+                    <Link to={'/vaccination'}>
+                        <div id='menue-content'>
+                            <img src={healthImg} width='24px' height='25px' alt="" />
+                            <p style={{ color: '#E6195E' }}>Vaccination</p>
+                            <img src={leftarrowpink} width='25px' alt="" />
+                        </div>
+                    </Link>
                     <div id='menue-content'>
                         <img src={verificationImg} width='25px' height='26px' alt="" />
                         <p>Childbirth Preparations</p>

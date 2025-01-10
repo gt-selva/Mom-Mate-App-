@@ -19,6 +19,7 @@ import hospitalone from '../assets/Logos/hospitalone.png'
 import hospitaltwo from '../assets/Logos/hospitaltwo.png'
 import hospitalthree from '../assets/Logos/hospitalthree.png'
 import proadcast from '../assets/Logos/Podcasts.png'
+import { Link } from 'react-router-dom'
 function Vaccination() {
     return (
         <>
@@ -47,9 +48,11 @@ function Vaccination() {
                 </div>
 
                 <div id='vaccination-back-section'>
-                    <div>
-                        <img src={backButton} width='15px' alt="" />
-                    </div>
+                    <Link to={'/home'}>
+                        <div>
+                            <img src={backButton} width='12px' alt="" />
+                        </div>
+                    </Link>
                     <div><h4>Vaccination</h4></div>
                 </div>
                 <div id='vaccination-p'>

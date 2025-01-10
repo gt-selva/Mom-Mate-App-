@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path='/' element={<Welcome />} />
           <Route path='/signup' element={<SignUp />} />
@@ -28,10 +28,11 @@ function App() {
           <Route path='/otpVerification' element={<OtpPage />} />
           <Route path='/verificationSuccessful' element={<VerificationSuccess />} />
           <Route path='/home' element={<Home />} />
+          <Route path='/vaccination' element={<Vaccination />} />
         </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
 
-      <Vaccination />
+
 
 
 
