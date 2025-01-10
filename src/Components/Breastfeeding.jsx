@@ -19,9 +19,10 @@ import aurthorone from '../assets/Logos/aurthorone.png'
 import aurthortwo from '../assets/Logos/aurthortwo.png'
 import aurthorthree from '../assets/Logos/aurthorthree.png'
 import aurthorfour from '../assets/Logos/aurthorfour.png'
-import homeImg from '../assets/Logos/Home.png'
+import homeImg from '../assets/Logos/homenonactive.png'
 import calenderImg from '../assets/Logos/Calender.png'
 import notificationImg from '../assets/Logos/notification.png'
+import { Link } from 'react-router-dom'
 
 function Breastfeeding() {
     return (
@@ -30,7 +31,9 @@ function Breastfeeding() {
 
 
                 <div id='breastfeeding-home-nav-bar'>
+
                     <div>
+
                         <img onClick={() => {
                             var menue = document.getElementById('menue-section')
                             if (menue && menue.style.display == 'none') {
@@ -42,6 +45,7 @@ function Breastfeeding() {
                         }}
                             src={menue} width='32px' height='32px' alt="menue" />
                     </div>
+
                     <div>
                         <img src={momMateLogo} width='154px' height='41px' alt="" />
                     </div>
@@ -51,10 +55,11 @@ function Breastfeeding() {
                 </div>
 
                 <div id='vaccination-back-section'>
-
-                    <div>
-                        <img src={backButton} width='12px' alt="" />
-                    </div>
+                    <Link to={'/home'}>
+                        <div>
+                            <img src={backButton} width='12px' alt="" />
+                        </div>
+                    </Link>
                     <div><h4>Breastfeeding Suppourt</h4></div>
                 </div>
                 {/* body  */}
@@ -130,11 +135,13 @@ function Breastfeeding() {
                     </div>
 
                     <div id='menue-settings'>
-                        <div id='menue-content'>
-                            <img src={healthImg} width='24px' height='25px' alt="" />
-                            <p style={{ color: '#E6195E' }}>Vaccination</p>
-                            <img src={leftarrowpink} width='25px' alt="" />
-                        </div>
+                        <Link to={'/vaccination'}>
+                            <div id='menue-content'>
+                                <img src={healthImg} width='24px' height='25px' alt="" />
+                                <p style={{ color: '#E6195E' }}>Vaccination</p>
+                                <img src={leftarrowpink} width='25px' alt="" />
+                            </div>
+                        </Link>
                         <div id='menue-content'>
                             <img src={verificationImg} width='25px' height='26px' alt="" />
                             <p>Childbirth Preparations</p>

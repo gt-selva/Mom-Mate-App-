@@ -12,6 +12,7 @@ import VerificationSuccess from './Components/VerificationSuccess'
 import Home from './Components/Home'
 import Vaccination from './Components/Vaccination'
 import Breastfeeding from './Components/Breastfeeding'
+import Articles from './Components/Articles'
 
 function App() {
 
@@ -30,9 +31,11 @@ function App() {
           <Route path='/verificationSuccessful' element={<VerificationSuccess />} />
           <Route path='/home' element={<Home />} />
           <Route path='/vaccination' element={<Vaccination />} />
+          <Route path='/breastfeeding' element={<Breastfeeding />} />
         </Routes>
       </BrowserRouter> */}
-      <Breastfeeding />
+      <Articles />
+
 
 
 

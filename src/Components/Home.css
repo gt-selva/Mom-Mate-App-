@@ -4,9 +4,9 @@
     height: 800px;
     margin: 5% 0% 0% 5%;
 }
-#home-nav-bar{
-    width: 90%;
+#homeonly-nav-bar{
     display: flex;
+    width: 90%;
     justify-content: space-between;
     align-items: center;
 }
