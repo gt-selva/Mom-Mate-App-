@@ -10,12 +10,13 @@ import DueDate from './Components/DueDate'
 import OtpPage from './Components/OtpPage'
 import VerificationSuccess from './Components/VerificationSuccess'
 import Home from './Components/Home'
+import Vaccination from './Components/Vaccination'
 
 function App() {
 
   return (
     <>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path='/' element={<Welcome />} />
           <Route path='/signup' element={<SignUp />} />
@@ -28,7 +29,9 @@ function App() {
           <Route path='/verificationSuccessful' element={<VerificationSuccess />} />
           <Route path='/home' element={<Home />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+
+      <Vaccination />
 
 
 

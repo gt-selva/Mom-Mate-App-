@@ -1,0 +1,91 @@
+#vaccination{
+    width: 90%;
+    height: 800px;
+    margin: 5% 5%;
+}
+#home-nav-bar{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#vaccination-back-section{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+#vaccination-back-section h4{
+    margin-left: 20px;
+    font-size: 20px;
+}
+#vaccination-p p{
+    width: 95%;
+    font-size: 13px;
+    margin-left: 40px;
+    color: #2C57C6;
+    font-weight: 600;
+}
+#vaccination-map-img {
+    width: 95%;
+}
+#vaccination-map-img img{
+    margin-top: 20px;
+    margin-left: -10px;
+}
+#vaccination-search{
+    width: 95%;
+    margin-top: 10px;
+}
+#vaccination-search input{
+    width: 95%;
+    height: 44px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 1px 23.6px 0px #00000026;
+}
+#vaccination-search img{
+    position: relative;
+    left: 290px;
+    top: -35px;
+}
+#vaccination-search input:focus{
+    outline: none;
+}
+#vaccination-search input[type=text]{
+    padding-left: 10px;
+}
+#hospital-details{
+    width: 95%;
+    margin-top: -25px;
+}
+#hospital-detail{
+    width: 95%;
+   display: flex;
+   align-items: center;
+   margin-top: 17px;
+}
+#hospital-detail p{
+    width: 360px;
+    margin-left: 10px;
+    color: #818181;
+    font-size: 14px;
+}
+hr{
+    margin-top: 10px;
+    border: 0.5px dotted #BEBEBE;
+}
+#hospital-name{
+    color: black !important;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+}
+#proadcast-img{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 20px;
+
+}
+
