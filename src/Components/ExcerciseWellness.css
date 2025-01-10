@@ -1,0 +1,53 @@
+#excersice-wellness{
+    width: 100%;
+    height: 850px;
+    padding: 5% 3%;
+}
+#excersice-bck-btn{
+    margin-top: 15px;
+    display: flex;
+    margin-left: -15px;
+    width: 220px;
+    align-items: center;
+    justify-content: space-between;
+}
+#excersice-weekdays{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+#excersice-min{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+#excersice-min p{
+    color: #818181;
+}
+#walking{
+    display: flex;
+}
+#walking img{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#excercise-details{
+    height: 500px;
+}
+#excersice-navigation-buttons{
+    position: fixed;
+    top: 670px;
+    left: 0px;
+    align-items: center;
+    height: 63px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 5px 5px;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    background-color: #E6195E;
+    width: 100%;
+}

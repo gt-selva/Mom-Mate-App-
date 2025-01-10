@@ -92,16 +92,19 @@ function Breastfeeding() {
                     <p>1:30 AM</p>
                     <hr />
                 </div>
+
                 <div id='edit'>
                     <h3>Articles by Gynae's</h3>
                     <img src={editicon} width='24px' alt="" />
                 </div>
 
                 <div id='aurthors'>
-                    <div>
-                        <img src={aurthorone} width='80px' height='77px' alt="" />
-                        <p>Dr Veena Bhat</p>
-                    </div>
+                    <Link to={'/articles'}>
+                        <div>
+                            <img src={aurthorone} width='80px' height='77px' alt="" />
+                            <p style={{ color: 'black' }}>Dr Veena Bhat</p>
+                        </div>
+                    </Link>
                     <div>
                         <img src={aurthortwo} width='80px' height='77px' alt="" />
                         <p>Dr Malvika Sabharwal</p>

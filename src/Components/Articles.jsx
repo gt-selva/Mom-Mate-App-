@@ -20,6 +20,7 @@ import backButton from '../assets/Logos/back button.png'
 import feedingone from '../assets/Logos/feedingone.png'
 import feedingtwo from '../assets/Logos/feedingtwo.png'
 import feedingthree from '../assets/Logos/feedingthree.png'
+import { Link } from 'react-router-dom'
 function Articles() {
     return (
         <>
@@ -44,12 +45,12 @@ function Articles() {
                         <img src={profileLogo} width='34px' height='34px' alt="" />
                     </div>
                 </div>
-
-                <div id='articles-bck-btn'>
-                    <img src={backButton} width='15px' style={{ marginLeft: '20px' }} height='20px' alt="" />
-                    <img src={aurthorone} width='56px' alt="" />
-                    <h3>Dr Veena Bhat</h3>
-                </div>
+                <Link to={'/breastfeeding'}>
+                    <div id='articles-bck-btn'>
+                        <img src={backButton} width='15px' style={{ marginLeft: '20px' }} height='20px' alt="" />
+                        <img src={aurthorone} width='56px' alt="" />
+                        <h3>Dr Veena Bhat</h3>
+                    </div></Link>
                 <h4>Embracing Breast Feeding</h4>
                 <div id='feeding-one'>
                     <img src={feedingone} width='104px' height='93px' alt="" />
@@ -99,12 +100,12 @@ function Articles() {
                 </div>
 
                 <div id='menue-settings'>
-
-                    <div id='menue-content'>
-                        <img src={healthImg} width='24px' height='25px' alt="" />
-                        <p style={{ color: '#E6195E' }}>Vaccination</p>
-                        <img src={leftarrowpink} width='25px' alt="" />
-                    </div>
+                    <Link to={'/vaccination'}>
+                        <div id='menue-content'>
+                            <img src={healthImg} width='24px' height='25px' alt="" />
+                            <p style={{ color: '#E6195E' }}>Vaccination</p>
+                            <img src={leftarrowpink} width='25px' alt="" />
+                        </div></Link>
 
                     <div id='menue-content'>
                         <img src={verificationImg} width='25px' height='26px' alt="" />

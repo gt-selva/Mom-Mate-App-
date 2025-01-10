@@ -13,6 +13,7 @@ import Home from './Components/Home'
 import Vaccination from './Components/Vaccination'
 import Breastfeeding from './Components/Breastfeeding'
 import Articles from './Components/Articles'
+import ExcerciseWellness from './Components/ExcerciseWellness'
 
 function App() {
 
@@ -32,9 +33,10 @@ function App() {
           <Route path='/home' element={<Home />} />
           <Route path='/vaccination' element={<Vaccination />} />
           <Route path='/breastfeeding' element={<Breastfeeding />} />
+          <Route path='/articles' element={<Articles />} />
         </Routes>
       </BrowserRouter> */}
-      <Articles />
+      <ExcerciseWellness />
 
 
 

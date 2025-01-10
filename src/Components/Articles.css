@@ -10,6 +10,9 @@
     width: 240px;
     margin-left: -15px;
 }
+#articles-bck-btn h3{
+    color: black;
+}
 #feeding-one{
     margin-top: 10px;
     width: 100%;
