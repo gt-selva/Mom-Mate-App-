@@ -156,6 +156,7 @@
     height: 800px;
     position: absolute;
     top: 0px;
+    left: 0px;
     width: 66%;
     z-index: 5;
     background-color:white;
