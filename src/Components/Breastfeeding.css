@@ -1,0 +1,59 @@
+#breastfeeding{
+    width: 90%;
+    height: 800px;
+    margin: 5% 5%;
+}
+#breastfeeding-d-m-y{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#breastfeeding-weekdays{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+#breastfeeding-time{
+    margin-top: -25px;
+}
+#breastfeeding-time p{
+    margin-top: 50px;
+    color: #818181;
+}
+#plusicon{
+    position: relative;
+    top: 40px;
+    left: 270px;
+
+}
+#edit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 15px;
+}
+#aurthors{
+    margin-top: -18px;
+    margin-left: -12px;
+    display: flex;
+    justify-content: space-between;
+}
+#aurthors div{
+    margin: 0px 3px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+}
+#breastfeeding-navigation-buttons{
+    width: 360px;
+    margin-left: -20px;
+    margin-right: 0px;
+    height: 63px;
+    align-items: center;
+    margin-top: 23px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #E6195E;
+}

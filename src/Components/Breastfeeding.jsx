@@ -1,4 +1,4 @@
-import '../Components/Vaccination.css'
+import '../Components/Breastfeeding.css'
 import menue from '../assets/Logos/Menue.png'
 import momMateLogo from '../assets/Logos/mom mate logo.png'
 import profileLogo from '../assets/Logos/profile.png'
@@ -13,17 +13,20 @@ import settingImg from '../assets/Logos/setting.png'
 import leftarrowpink from '../assets/Logos/leftarrow.png'
 import leftarrowblack from '../assets/Logos/leftarrowblack.png'
 import backButton from '../assets/Logos/back button.png'
-import mapImg from '../assets/Logos/Map.png'
-import search from '../assets/Logos/vaccination search.png'
-import hospitalone from '../assets/Logos/hospitalone.png'
-import hospitaltwo from '../assets/Logos/hospitaltwo.png'
-import hospitalthree from '../assets/Logos/hospitalthree.png'
-import proadcast from '../assets/Logos/Podcasts.png'
+import plusicon from '../assets/Logos/plusicon.png'
+import editicon from '../assets/Logos/editicon.png'
+import aurthorone from '../assets/Logos/aurthorone.png'
+import aurthortwo from '../assets/Logos/aurthortwo.png'
+import aurthorthree from '../assets/Logos/aurthorthree.png'
+import aurthorfour from '../assets/Logos/aurthorfour.png'
+import homeImg from '../assets/Logos/Home.png'
+import calenderImg from '../assets/Logos/Calender.png'
+import notificationImg from '../assets/Logos/notification.png'
 import { Link } from 'react-router-dom'
-function Vaccination() {
+function Breastfeeding() {
     return (
         <>
-            <div id='vaccination'>
+            <div id='breastfeeding'>
 
 
                 <div id='home-nav-bar'>
@@ -48,77 +51,71 @@ function Vaccination() {
                 </div>
 
                 <div id='vaccination-back-section'>
-                    <Link to={'/home'}>
-                        <div>
-                            <img src={backButton} width='12px' alt="" />
-                        </div>
-                    </Link>
-                    <div><h4>Vaccination</h4></div>
+
+                    <div>
+                        <img src={backButton} width='12px' alt="" />
+                    </div>
+                    <div><h4>Breastfeeding Suppourt</h4></div>
                 </div>
                 {/* body  */}
 
-                <div id='vaccination-p'>
-                    <p>HTIC Maternal & Child Health <br /> Accelerator Program</p>
-                </div>
-                <div id='vaccination-map-img'>
-                    <img src={mapImg} width='360px' alt="" />
-                </div>
-                <div id='vaccination-search'>
-                    <input type="text" placeholder='Search' />
-                    <img src={search} width='25px' alt="" />
+                <div id='breastfeeding-d-m-y'>
+                    <h3>22 Feb 2024</h3>
                 </div>
 
-                <div id='hospital-details'>
+                <div id='breastfeeding-weekdays'>
+                    <div id="days"><p id='da'>M</p><p id='dat'>20</p></div>
+                    <div id="days"><p id='da'>T</p><p id='dat'>21</p></div>
+                    <div id="days"><p id='da'>W</p><p id='dat'>22</p></div>
+                    <span id='home-span'><div id="days"><p id='da'>T</p><p id='dat'>23</p></div></span>
+                    <div id="days"><p id='da'>F</p><p id='dat'>24</p></div>
+                    <div id="days"><p id='da'>S</p><p id='dat'>25</p></div>
+                    <div id="days"><p id='da'>S</p><p id='dat'>26</p></div>
 
-                    <div id='hospital-detail'>
-                        <img src={hospitalone} width='49px' alt="" />
+                </div>
+                <div id='plusicon'>
+                    <img src={plusicon} width='28px' alt="" />
+                </div>
 
-                        <div>
-                            <div>
-                                <p id='hospital-name'>Kshem Multispecialty Hospital</p>
-                            </div>
-                            <div>
-                                <p>5 km away</p>
-                            </div>
-                        </div>
-                    </div>
+                <div id='breastfeeding-time'>
+                    <p>1:30 AM</p>
                     <hr />
-
-                    <div id='hospital-detail'>
-                        <img src={hospitaltwo} width='49px' alt="" />
-
-                        <div>
-                            <div>
-                                <p id='hospital-name'>Sai Thunga Healthcare.</p>
-                            </div>
-                            <div>
-                                <p>7 km away</p>
-                            </div>
-                        </div>
-                    </div>
+                    <p>7:00 AM</p>
                     <hr />
-
-                    <div id='hospital-detail'>
-                        <img src={hospitalthree} width='49px' alt="" />
-
-                        <div>
-                            <div >
-                                <p id='hospital-name'>Sakthi Hospital</p>
-                            </div>
-                            <div>
-                                <p>8 km away</p>
-                            </div>
-                        </div>
-                    </div>
+                    <p>10:00 AM</p>
                     <hr />
-
-                    <div id='proadcast-img'>
-                        <img src={proadcast} width='54px' alt="" />
-                    </div>
-
+                    <p>1:30 AM</p>
+                    <hr />
+                </div>
+                <div id='edit'>
+                    <h3>Articles by Gynae's</h3>
+                    <img src={editicon} width='24px' alt="" />
                 </div>
 
+                <div id='aurthors'>
+                    <div>
+                        <img src={aurthorone} width='80px' height='77px' alt="" />
+                        <p>Dr Veena Bhat</p>
+                    </div>
+                    <div>
+                        <img src={aurthortwo} width='80px' height='77px' alt="" />
+                        <p>Dr Malvika Sabharwal</p>
+                    </div>
+                    <div>
+                        <img src={aurthorthree} width='80px' height='77px' alt="" />
+                        <p>Dr Laila Davel</p>
+                    </div>
+                    <div>
+                        <img src={aurthorfour} width='80px' height='77px' alt="" />
+                        <p>Dr Rama Joshi</p>
+                    </div>
+                </div>
 
+                <div id='breastfeeding-navigation-buttons'>
+                    <img src={homeImg} width='34px' height='34px' alt="" />
+                    <img src={calenderImg} width='34px' height='34px' alt="" />
+                    <img src={notificationImg} width='28px' height='32px' alt="" />
+                </div>
                 {/* menue */}
 
                 <div id='menue-section'>
@@ -181,4 +178,4 @@ function Vaccination() {
         </>
     );
 };
-export default Vaccination;
+export default Breastfeeding;
