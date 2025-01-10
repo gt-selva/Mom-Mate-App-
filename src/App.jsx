@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path='/' element={<Welcome />} />
           <Route path='/signup' element={<SignUp />} />
@@ -34,9 +34,10 @@ function App() {
           <Route path='/vaccination' element={<Vaccination />} />
           <Route path='/breastfeeding' element={<Breastfeeding />} />
           <Route path='/articles' element={<Articles />} />
+          <Route path='/excersicewellness' element={<ExcerciseWellness />} />
         </Routes>
-      </BrowserRouter> */}
-      <ExcerciseWellness />
+      </BrowserRouter>
+
 
 
 

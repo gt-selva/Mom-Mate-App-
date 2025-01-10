@@ -96,10 +96,12 @@ function Home() {
                             <p>Nutrition Guide </p>
                             <img src={nutritionImg} width='121px' height='119px' alt="" />
                         </div>
-                        <div id='content-2'>
+
+                        <div id='content-2'> <Link to={'/excersicewellness'}>
                             <p>Excersice Wellness</p>
-                            <img src={excerciseImg} width='160px' height='120px' alt="" />
+                            <img src={excerciseImg} width='160px' height='120px' alt="" /> </Link>
                         </div>
+
                     </div>
                     <div id="content">
                         <div id='content-3'>

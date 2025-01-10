@@ -21,6 +21,7 @@ import settingImg from '../assets/Logos/setting.png'
 import leftarrowpink from '../assets/Logos/leftarrow.png'
 import leftarrowblack from '../assets/Logos/leftarrowblack.png'
 import logoutImg from '../assets/Logos/logout.png'
+import { Link } from 'react-router-dom'
 function ExcerciseWellness() {
     return (
         <>
@@ -45,10 +46,12 @@ function ExcerciseWellness() {
                         <img src={profileLogo} width='34px' height='34px' alt="" />
                     </div>
                 </div>
-                <div id='excersice-bck-btn'>
-                    <img src={backButton} width='15px' style={{ marginLeft: '20px' }} height='20px' alt="" />
-                    <h3>Excersice Wellness</h3>
-                </div>
+                <Link to={'/home'}>
+                    <div id='excersice-bck-btn'>
+                        <img src={backButton} width='15px' style={{ marginLeft: '20px' }} height='20px' alt="" />
+                        <h3>Excersice Wellness</h3>
+                    </div>
+                </Link>
 
                 <div id='d-m-y'>
                     <h3>22 Feb 2024</h3>
