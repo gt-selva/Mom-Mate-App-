@@ -3,17 +3,25 @@
     height: 800px;
     margin: 5% 5%;
 }
+#breastfeeding-home-nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
 #breastfeeding-d-m-y{
+    width: 95%;
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 #breastfeeding-weekdays{
+    width: 95%;
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
 }
 #breastfeeding-time{
+    width: 90%;
     margin-top: -25px;
 }
 #breastfeeding-time p{
@@ -33,6 +41,7 @@
     margin: 30px 15px;
 }
 #aurthors{
+    width: 95%;
     margin-top: -18px;
     margin-left: -12px;
     display: flex;
@@ -45,7 +54,7 @@
     font-weight: 700;
 }
 #breastfeeding-navigation-buttons{
-    width: 360px;
+    width: 99%;
     margin-left: -20px;
     margin-right: 0px;
     height: 63px;

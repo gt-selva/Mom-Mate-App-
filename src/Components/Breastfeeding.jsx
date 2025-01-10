@@ -29,7 +29,7 @@ function Breastfeeding() {
             <div id='breastfeeding'>
 
 
-                <div id='home-nav-bar'>
+                <div id='breastfeeding-home-nav-bar'>
                     <div>
                         <img onClick={() => {
                             var menue = document.getElementById('menue-section')
