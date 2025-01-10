@@ -12,13 +12,33 @@ import breasfeedImg from '../assets/Logos/breast feeding.png'
 import homeImg from '../assets/Logos/Home.png'
 import calenderImg from '../assets/Logos/Calender.png'
 import notificationImg from '../assets/Logos/notification.png'
+import logoutImg from '../assets/Logos/logout.png'
+import healthImg from '../assets/Logos/health.png'
+import verificationImg from '../assets/Logos/shield.png'
+import activityImg from '../assets/Logos/clock.png'
+import starImg from '../assets/Logos/star.png'
+import questionImg from '../assets/Logos/question.png'
+import privacyImg from '../assets/Logos/privacy.png'
+import customerCareImg from '../assets/Logos/customer-care.png'
+import settingImg from '../assets/Logos/setting.png'
+import leftarrowpink from '../assets/Logos/leftarrow.png'
+import leftarrowblack from '../assets/Logos/leftarrowblack.png'
 function Home() {
     return (
         <>
             <div id='home'>
                 <div id='home-nav-bar'>
                     <div>
-                        <img src={menue} width='32px' height='32px' alt="menue" />
+                        <img onClick={() => {
+                            var menue = document.getElementById('menue-section')
+                            if (menue && menue.style.display == 'none') {
+                                menue.style.display = 'grid'
+                            } else {
+                                menue.style.display = 'grid'
+                                menue.style.transition = '1s'
+                            }
+                        }}
+                            src={menue} width='32px' height='32px' alt="menue" />
                     </div>
                     <div>
                         <img src={momMateLogo} width='154px' height='41px' alt="" />
@@ -97,6 +117,63 @@ function Home() {
                     <img src={notificationImg} width='28px' height='32px' alt="" />
                 </div>
             </div>
+            {/* menue section */}
+            <div id='menue-section'>
+                <div id='menue-back'>
+                    <img onClick={() => {
+                        var menue = document.getElementById('menue-section')
+                        if (menue && menue.style.display === 'grid') {
+                            menue.style.display = 'none'
+                        }
+                    }}
+                        src={logoutImg} width='30px' height='30px' alt="" />
+                </div>
+
+                <div id='menue-settings'>
+                    <div id='menue-content'>
+                        <img src={healthImg} width='24px' height='25px' alt="" />
+                        <p style={{ color: '#E6195E' }}>Vaccination</p>
+                        <img src={leftarrowpink} width='25px' alt="" />
+                    </div>
+                    <div id='menue-content'>
+                        <img src={verificationImg} width='25px' height='26px' alt="" />
+                        <p>Childbirth Preparations</p>
+                        <img src={leftarrowblack} width="25px" alt="" />
+                    </div>
+                    <div id='menue-content'>
+                        <img src={activityImg} width='24px' height='25px' alt="" />
+                        <p>Activity</p>
+                        <img src={leftarrowblack} width='25px' alt="" />
+                    </div>
+                    <div id='menue-content'>
+                        <img src={verificationImg} width='25px' height='26px' alt="" />
+                        <p> Two Factor Authentication</p>
+                        <img src={leftarrowblack} width='25px' alt="" />
+                    </div>
+                    <div id='menue-content'>
+                        <img src={starImg} width='23px' height='24px' alt="" />
+                        <p>Feedbacks</p>
+                        <img src={leftarrowblack} width='25px' alt="" />
+                    </div>
+                    <div id='menue-content'>
+                        <img src={privacyImg} width='23px' height='24px' alt="" />
+                        <p>Privacy & Policy</p>
+                        <img src={leftarrowblack} width='25px' alt="" />
+                    </div>
+                    <div id='menue-content'>
+                        <img src={customerCareImg} width='20px' height='21px' alt="" />
+                        <p>Help Center</p>
+                        <img src={leftarrowblack} width='25px' alt="" />
+                    </div>
+                    <div id='menue-content'>
+                        <img src={settingImg} width='21px' height='22px' alt="" />
+                        <p>Setting</p>
+                        <img src={leftarrowblack} width='25px' alt="" />
+                    </div>
+                </div>
+
+            </div>
+
         </>
     );
 };
