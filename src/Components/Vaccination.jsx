@@ -18,7 +18,7 @@ import search from '../assets/Logos/vaccination search.png'
 import hospitalone from '../assets/Logos/hospitalone.png'
 import hospitaltwo from '../assets/Logos/hospitaltwo.png'
 import hospitalthree from '../assets/Logos/hospitalthree.png'
-import proadcast from '../assets/Logos/podcasts.png'
+import proadcast from '../assets/Logos/Podcasts.png'
 function Vaccination() {
     return (
         <>
