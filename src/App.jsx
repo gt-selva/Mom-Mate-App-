@@ -14,12 +14,13 @@ import Vaccination from './Components/Vaccination'
 import Breastfeeding from './Components/Breastfeeding'
 import Articles from './Components/Articles'
 import ExcerciseWellness from './Components/ExcerciseWellness'
+import CommunitySupport from './Components/CommunitySupport'
 
 function App() {
 
   return (
     <>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path='/' element={<Welcome />} />
           <Route path='/signup' element={<SignUp />} />
@@ -36,7 +37,9 @@ function App() {
           <Route path='/articles' element={<Articles />} />
           <Route path='/excersicewellness' element={<ExcerciseWellness />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+
+      <CommunitySupport />
 
 
 
