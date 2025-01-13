@@ -23,7 +23,7 @@ import settingImg from '../assets/Logos/setting.png'
 import leftarrowpink from '../assets/Logos/leftarrow.png'
 import leftarrowblack from '../assets/Logos/leftarrowblack.png'
 import logoutImg from '../assets/Logos/logout.png'
-function NutritionGuide() {
+function NUtritionguide() {
     return (
         <>
             <div id='nutritionguide'>
@@ -194,4 +194,4 @@ function NutritionGuide() {
         </>
     );
 };
-export default NutritionGuide;
+export default NUtritionguide;

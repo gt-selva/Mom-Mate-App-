@@ -15,7 +15,9 @@ import Breastfeeding from './Components/Breastfeeding'
 import Articles from './Components/Articles'
 import ExcerciseWellness from './Components/ExcerciseWellness'
 import CommunitySupport from './Components/CommunitySupport'
-import NutritionGuide from './Components/NUtritionGuide'
+import Nutritionguide from './Components/NUtritionGuide'
+
+
 
 function App() {
 
@@ -40,7 +42,7 @@ function App() {
           <Route path='/communitysupport' element={<CommunitySupport />} />
         </Routes>
       </BrowserRouter> */}
-      <NutritionGuide />
+      <Nutritionguide />
 
 
 
