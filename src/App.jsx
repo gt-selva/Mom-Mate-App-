@@ -16,6 +16,8 @@ import Articles from './Components/Articles'
 import ExcerciseWellness from './Components/ExcerciseWellness'
 import CommunitySupport from './Components/CommunitySupport'
 import Nutrition from './Components/Nutrition'
+import DueDatetwo from './Components/DueDatetwo'
+import Calender from './Components/Calender'
 
 
 
@@ -40,11 +42,12 @@ function App() {
           <Route path='/articles' element={<Articles />} />
           <Route path='/excersicewellness' element={<ExcerciseWellness />} />
           <Route path='/communitysupport' element={<CommunitySupport />} />
+          <Route path='/nutritionguide' element={<Nutrition />} />
+          <Route path='/duedatecalender' element={<DueDatetwo />} />
         </Routes>
       </BrowserRouter> */}
-      <Nutrition />
 
-
+      <Calender />
 
 
 

@@ -2,7 +2,7 @@
     display: grid;
     width: 360px;
     height: 800px;
-    margin: 5% 0% 0% 5%;
+   padding: 5% 3%;
 }
 #homeonly-nav-bar{
     display: flex;

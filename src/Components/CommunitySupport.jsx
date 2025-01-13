@@ -53,11 +53,11 @@ function CommunitySupport() {
                 </div>
 
                 <div id='bck-btn-today-btn'>
-
-                    <div id='community-bck-btn'> <Link to={'/home'}>
-                        <img src={backButton} width='15px' style={{ marginLeft: '20px' }} height='20px' alt="" />
-                        <h3>Community</h3></Link>
-                    </div>
+                    <Link to={'/home'}>
+                        <div id='community-bck-btn' style={{ display: 'flex' }}>
+                            <img src={backButton} width='15px' style={{ marginLeft: '20px' }} height='20px' alt="" />
+                            <h3 style={{ color: 'black' }}>Community</h3>
+                        </div></Link>
                     <div id='community-img-btn'>
                         <img src={search} width='25px' height='25px' alt="" />
                         <img src={comment} width='22px' height='22px' alt="" />

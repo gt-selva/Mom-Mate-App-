@@ -91,38 +91,38 @@ function Home() {
 
                 <div id='content-parts'>
                     <div id="content">
-                        <div id='content-1'>
-                            <p>Nutrition Guide </p>
-                            <img src={nutritionImg} width='121px' height='119px' alt="" />
+                        <div id='content-1'><Link to={'/nutritionguide'}>
+                            <p style={{ color: '#58A65F' }}>Nutrition Guide </p>
+                            <img src={nutritionImg} width='121px' height='119px' alt="" /></Link>
                         </div>
 
                         <div id='content-2'> <Link to={'/excersicewellness'}>
-                            <p>Excersice Wellness</p>
+                            <p style={{ color: '#F7B000' }}>Excersice Wellness</p>
                             <img src={excerciseImg} width='160px' height='120px' alt="" /> </Link>
                         </div>
 
                     </div>
                     <div id="content">
                         <div id='content-3'><Link to={'/communitysupport'}>
-                            <p>Community Support </p>
+                            <p style={{ color: '#FE8609' }}>Community Support </p>
                             <img src={communityImg} width='93px' height='90px' alt="" /></Link>
                         </div>
 
                         <div id='content-4'><Link to={'/breastfeeding'}>
-                            <p>Breastfeeding Support </p>
+                            <p style={{ color: '#FF4B60' }}>Breastfeeding Support </p>
                             <img src={breasfeedImg} width='104px' height='100px' alt="" /> </Link>
                         </div>
 
                     </div>
                 </div>
                 <div id='navigation-buttons'>
-                    <img src={homeImg} width='34px' height='34px' alt="" />
-                    <img src={calenderImg} width='34px' height='34px' alt="" />
+                    <img src={homeImg} width='34px' height='34px' alt="" /><Link to={'/duedatecalender'}>
+                        <img src={calenderImg} width='34px' height='34px' alt="" /></Link>
                     <img src={notificationImg} width='28px' height='32px' alt="" />
                 </div>
-            </div>
+            </div >
             {/* menue section */}
-            <div id='menue-section'>
+            < div id='menue-section' >
                 <div id='menue-back'>
                     <img onClick={() => {
                         var menue = document.getElementById('menue-section')
@@ -178,7 +178,7 @@ function Home() {
                     </div>
                 </div>
 
-            </div>
+            </div >
 
         </>
     );

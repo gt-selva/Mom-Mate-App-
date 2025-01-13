@@ -1,0 +1,35 @@
+#duedatetwo{
+    width: 100%;
+    padding: 5% 3%;
+}
+#duedatetwo-bck-btn{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+#duedatetwo-bck-btn img{
+    margin-right: 15px;
+}
+#duedatetwo-buttons{
+    position: absolute;
+    top: 600px;
+    left: 28px;
+}
+#duedatetwo-buttons button{
+    width: 191px;
+    height: 44px;
+    top: 596px;
+    left: 37px;
+    border-radius: 10px; 
+    border: none;
+}
+#appointment-sheduler button{
+    background-color: #C8DBFF;
+    color: #3166EE;
+}
+#symptom-tracker button{
+    background-color: #FACCDB;
+    color: #E6195E;
+    margin-top: 10px;
+}

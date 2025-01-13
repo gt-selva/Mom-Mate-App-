@@ -23,6 +23,7 @@ import settingImg from '../assets/Logos/setting.png'
 import leftarrowpink from '../assets/Logos/leftarrow.png'
 import leftarrowblack from '../assets/Logos/leftarrowblack.png'
 import logoutImg from '../assets/Logos/logout.png'
+import { Link } from 'react-router-dom'
 function Nutrition() {
     return (
         <>
@@ -47,11 +48,11 @@ function Nutrition() {
                         <img src={profileLogo} width='34px' height='34px' alt="" />
                     </div>
                 </div>
-                <div id='nutritionguide-back-section'>
+                <div id='nutritionguide-back-section'><Link to={'/home'}>
                     <div id='excersice-bck-btn'>
                         <img src={backButton} width='15px' style={{ marginLeft: '20px' }} height='20px' alt="" />
-                        <h3>Excersice Wellness</h3>
-                    </div>
+                        <h3 style={{ color: 'black' }}>Excersice Wellness</h3>
+                    </div></Link>
                     <div id='today-dropbtn'>
                         <h4>Today</h4>
                         <img src={dropdown} width='9px' height='6px' style={{ marginLeft: '20px' }} alt="" />
