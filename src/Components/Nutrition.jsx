@@ -1,4 +1,4 @@
-import '../Components/NutritionGuide.css'
+import '../Components/Nutrition.css'
 import menue from '../assets/Logos/Menue.png'
 import momMateLogo from '../assets/Logos/mom mate logo.png'
 import profileLogo from '../assets/Logos/profile.png'
@@ -23,7 +23,7 @@ import settingImg from '../assets/Logos/setting.png'
 import leftarrowpink from '../assets/Logos/leftarrow.png'
 import leftarrowblack from '../assets/Logos/leftarrowblack.png'
 import logoutImg from '../assets/Logos/logout.png'
-function NUtritionguide() {
+function Nutrition() {
     return (
         <>
             <div id='nutritionguide'>
@@ -194,4 +194,4 @@ function NUtritionguide() {
         </>
     );
 };
-export default NUtritionguide;
+export default Nutrition;
