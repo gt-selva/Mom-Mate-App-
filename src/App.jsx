@@ -15,6 +15,7 @@ import Breastfeeding from './Components/Breastfeeding'
 import Articles from './Components/Articles'
 import ExcerciseWellness from './Components/ExcerciseWellness'
 import CommunitySupport from './Components/CommunitySupport'
+import NutritionGuide from './Components/NUtritionGuide'
 
 function App() {
 
@@ -36,10 +37,12 @@ function App() {
           <Route path='/breastfeeding' element={<Breastfeeding />} />
           <Route path='/articles' element={<Articles />} />
           <Route path='/excersicewellness' element={<ExcerciseWellness />} />
+          <Route path='/communitysupport' element={<CommunitySupport />} />
         </Routes>
       </BrowserRouter> */}
+      <NutritionGuide />
 
-      <CommunitySupport />
+
 
 
 

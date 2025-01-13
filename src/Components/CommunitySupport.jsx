@@ -26,6 +26,7 @@ import settingImg from '../assets/Logos/setting.png'
 import leftarrowpink from '../assets/Logos/leftarrow.png'
 import leftarrowblack from '../assets/Logos/leftarrowblack.png'
 import logoutImg from '../assets/Logos/logout.png'
+import { Link } from 'react-router-dom'
 function CommunitySupport() {
     return (
         <>
@@ -52,9 +53,10 @@ function CommunitySupport() {
                 </div>
 
                 <div id='bck-btn-today-btn'>
-                    <div id='community-bck-btn'>
+
+                    <div id='community-bck-btn'> <Link to={'/home'}>
                         <img src={backButton} width='15px' style={{ marginLeft: '20px' }} height='20px' alt="" />
-                        <h3>Community</h3>
+                        <h3>Community</h3></Link>
                     </div>
                     <div id='community-img-btn'>
                         <img src={search} width='25px' height='25px' alt="" />
@@ -171,11 +173,12 @@ function CommunitySupport() {
                     </div>
 
                     <div id='menue-settings'>
-                        <div id='menue-content'>
-                            <img src={healthImg} width='24px' height='25px' alt="" />
-                            <p style={{ color: '#E6195E' }}>Vaccination</p>
-                            <img src={leftarrowpink} width='25px' alt="" />
-                        </div>
+                        <Link to={'/vaccination'}>
+                            <div id='menue-content'>
+                                <img src={healthImg} width='24px' height='25px' alt="" />
+                                <p style={{ color: '#E6195E' }}>Vaccination</p>
+                                <img src={leftarrowpink} width='25px' alt="" />
+                            </div></Link>
                         <div id='menue-content'>
                             <img src={verificationImg} width='25px' height='26px' alt="" />
                             <p>Childbirth Preparations</p>

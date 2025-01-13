@@ -17,7 +17,6 @@ import healthImg from '../assets/Logos/health.png'
 import verificationImg from '../assets/Logos/shield.png'
 import activityImg from '../assets/Logos/clock.png'
 import starImg from '../assets/Logos/star.png'
-import questionImg from '../assets/Logos/question.png'
 import privacyImg from '../assets/Logos/privacy.png'
 import customerCareImg from '../assets/Logos/customer-care.png'
 import settingImg from '../assets/Logos/setting.png'
@@ -104,9 +103,9 @@ function Home() {
 
                     </div>
                     <div id="content">
-                        <div id='content-3'>
+                        <div id='content-3'><Link to={'/communitysupport'}>
                             <p>Community Support </p>
-                            <img src={communityImg} width='93px' height='90px' alt="" />
+                            <img src={communityImg} width='93px' height='90px' alt="" /></Link>
                         </div>
 
                         <div id='content-4'><Link to={'/breastfeeding'}>
