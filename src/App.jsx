@@ -25,7 +25,7 @@ function App() {
 
   return (
     <>
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path='/' element={<Welcome />} />
           <Route path='/signup' element={<SignUp />} />
@@ -44,18 +44,9 @@ function App() {
           <Route path='/communitysupport' element={<CommunitySupport />} />
           <Route path='/nutritionguide' element={<Nutrition />} />
           <Route path='/duedatecalender' element={<DueDatetwo />} />
+          <Route path='/trackyourbaby' element={<Calender />} />
         </Routes>
-      </BrowserRouter> */}
-
-      <Calender />
-
-
-
-
-
-
-
-
+      </BrowserRouter>
     </>
   )
 }

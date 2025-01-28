@@ -7,6 +7,17 @@ import babyImg from '../assets/Logos/baby growth.png'
 import homeImg from '../assets/Logos/Home.png'
 import calenderImg from '../assets/Logos/Calender.png'
 import notificationImg from '../assets/Logos/notification.png'
+import healthImg from '../assets/Logos/health.png'
+import verificationImg from '../assets/Logos/shield.png'
+import activityImg from '../assets/Logos/clock.png'
+import starImg from '../assets/Logos/star.png'
+import privacyImg from '../assets/Logos/privacy.png'
+import customerCareImg from '../assets/Logos/customer-care.png'
+import settingImg from '../assets/Logos/setting.png'
+import leftarrowpink from '../assets/Logos/leftarrow.png'
+import leftarrowblack from '../assets/Logos/leftarrowblack.png'
+import logoutImg from '../assets/Logos/logout.png'
+import { Link } from 'react-router-dom'
 function Calender() {
     return (
         <>
@@ -31,10 +42,11 @@ function Calender() {
                         <img src={profileLogo} width='34px' height='34px' alt="" />
                     </div>
                 </div>
-                <div id='calender-bck-btn' style={{ display: 'flex' }}>
-                    <img src={backButton} width='15px' style={{ marginLeft: '20px' }} height='20px' alt="" />
-                    <h3 style={{ color: 'black' }}>Track your baby</h3>
-                </div>
+                <Link to={'/home'}>
+                    <div id='calender-bck-btn' style={{ display: 'flex' }}>
+                        <img src={backButton} width='15px' style={{ marginLeft: '20px' }} height='20px' alt="" />
+                        <h3 style={{ color: 'black' }}>Track your baby</h3>
+                    </div></Link>
                 <div id='calender-track-baby'>
                     <div id='baby-growth'>
                         <div>
@@ -129,6 +141,63 @@ function Calender() {
                     </div>
 
                 </div>
+
+                {/* menue section */}
+                <div id='menue-section'>
+                    <div id='menue-back'>
+                        <img onClick={() => {
+                            var menue = document.getElementById('menue-section')
+                            if (menue && menue.style.display === 'grid') {
+                                menue.style.display = 'none'
+                            }
+                        }}
+                            src={logoutImg} width='30px' height='30px' alt="" />
+                    </div>
+
+                    <div id='menue-settings'><Link to={'/vaccination'}>
+                        <div id='menue-content'>
+                            <img src={healthImg} width='24px' height='25px' alt="" />
+                            <p style={{ color: '#E6195E' }}>Vaccination</p>
+                            <img src={leftarrowpink} width='25px' alt="" />
+                        </div></Link>
+                        <div id='menue-content'>
+                            <img src={verificationImg} width='25px' height='26px' alt="" />
+                            <p>Childbirth Preparations</p>
+                            <img src={leftarrowblack} width="25px" alt="" />
+                        </div>
+                        <div id='menue-content'>
+                            <img src={activityImg} width='24px' height='25px' alt="" />
+                            <p>Activity</p>
+                            <img src={leftarrowblack} width='25px' alt="" />
+                        </div>
+                        <div id='menue-content'>
+                            <img src={verificationImg} width='25px' height='26px' alt="" />
+                            <p> Two Factor Authentication</p>
+                            <img src={leftarrowblack} width='25px' alt="" />
+                        </div>
+                        <div id='menue-content'>
+                            <img src={starImg} width='23px' height='24px' alt="" />
+                            <p>Feedbacks</p>
+                            <img src={leftarrowblack} width='25px' alt="" />
+                        </div>
+                        <div id='menue-content'>
+                            <img src={privacyImg} width='23px' height='24px' alt="" />
+                            <p>Privacy & Policy</p>
+                            <img src={leftarrowblack} width='25px' alt="" />
+                        </div>
+                        <div id='menue-content'>
+                            <img src={customerCareImg} width='20px' height='21px' alt="" />
+                            <p>Help Center</p>
+                            <img src={leftarrowblack} width='25px' alt="" />
+                        </div>
+                        <div id='menue-content'>
+                            <img src={settingImg} width='21px' height='22px' alt="" />
+                            <p>Setting</p>
+                            <img src={leftarrowblack} width='25px' alt="" />
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <div style={{ width: '100%' }} id='excersice-navigation-buttons'>
                 <img src={homeImg} width='34px' height='34px' alt="" />

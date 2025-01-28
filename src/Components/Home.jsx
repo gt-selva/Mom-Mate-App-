@@ -82,12 +82,12 @@ function Home() {
                         <p id='days-of-preganent'>You are 28 weeks preganent</p>
                     </div>
                 </div>
-
-                <div id='home-track-your-baby'>
-                    <p>Track your baby</p>
-                    <img src={vectortwo} height='2px' alt="" />
-                    <img src={vectorone} width='7px' height='7px' alt="" />
-                </div>
+                <Link to={'/trackyourbaby'}>
+                    <div id='home-track-your-baby'>
+                        <p>Track your baby</p>
+                        <img src={vectortwo} height='2px' alt="" />
+                        <img src={vectorone} width='7px' height='7px' alt="" />
+                    </div></Link>
 
                 <div id='content-parts'>
                     <div id="content">
